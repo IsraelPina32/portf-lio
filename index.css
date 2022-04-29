@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+@keyframes flutuando{
+     0%{
+        transform: translate(-100px, -20px);
+     }
+     50%{
+        transform: translate(-100px, 0px);
+     }
+     100%{
+        transform: translate(-100px, -20px);
+     }
+}
+
+/* navegação */
+
+.menu-fixo{
+    position: fixed;
+    width: 100%;
+    height: 8vh;
+}
+
+.navegacao-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    background: black;
+    color: white;
+}
+.navegacao-container-foto{
+    height: 75px;
+    border-radius: 40px;
+    margin-right: 25vw;
+}
+.nave-intens{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.nave-intens li{
+    margin-left: 30px;
+    font-size: 19pt;
+
+
+}
+
+.nave-intens li:hover{
+     border-bottom: 5px solid deepskyblue;
+    
+}
+
+.navegacao-container-foto{
+  font-size: 20pt;
+}
+
+.navegacao-container-foto:hover:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+    cursor: pointer;
+}
+/*fim navecação*/
+
+/* HOME */
+
+.home{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(raverna.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+
+.projetos{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn:hover{
+    background: #16005c;
+    transition: 0,5s;
+}
+
+.btn{
+
+    background: transparent ;
+    height: 40px;
+    width: 140px;
+    border: 1px solid white;
+   box-shadow: #0d1c4a;
+   font-family: 'Sarala', sans-serif;
+   font-size: 24px;
+   font-weight: 400px;
+   color: azure;
+   transform: translateY(-100px);
+
+}
+.fa-angle-down{
+    font-size: 60pt;
+    color: white;
+    transform: translate(-100px, -20px);
+    animation: flutuando 2s ease-in-out infinite;
+}
+
+.box{
+    width: 500px;
+    height: 299px;
+    position: relative;
+
+}
+.box-foto2{
+    width: 180px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+
+}
+.circulo{
+    height: 100%;
+    width: 100%;
+    background: black;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    clip-path: circle(129px);
+}
+.circulo:hover ~ img  {
+    left: calc(100%-100px);
+    width: 299px;
+    height: 299px;
+}
