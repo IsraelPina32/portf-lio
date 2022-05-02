@@ -36,7 +36,7 @@ a{
     justify-content: space-around;
     align-items: center;
     height: 8vh;
-    background: black;
+    background: #2a1421;
     color: white;
 }
 .navegacao-container-foto{
@@ -154,6 +154,8 @@ a{
 }
 
 .sobre-content{
+    display: flex;
+    flex-wrap: wrap;
     
 }
 
@@ -190,4 +192,22 @@ a{
 
 .right p{
     margin-top: 225px;
+}
+
+/* MEDIA QUER */
+@media (max-width: 1120px){
+    .left, .right {
+        float: none;
+        margin: 0 50px 0 50px;
+        
+    }
+
+    .sobre-content{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .sobre{
+        height: 129vh;
+    }
 }
