@@ -42,7 +42,7 @@ a{
 .navegacao-container-foto{
     height: 75px;
     border-radius: 40px;
-    margin-right: 25vw;
+    margin-right: 15vw;
 }
 .nave-intens{
     display: flex;
@@ -52,7 +52,7 @@ a{
 
 .nave-intens li{
     margin-left: 30px;
-    font-size: 19pt;
+    font-size: 17pt;
 
 
 }
@@ -118,7 +118,7 @@ a{
     transform: translate(-100px, -20px);
     animation: flutuando 2s ease-in-out infinite;
 }
-/* FIM HOME */
+/* ===== FIM HOME ===== */
 
 /* SOBRE */
 .sobre{
@@ -151,10 +151,6 @@ a{
     width: 70px;
     height: 4px;
     background: white;
-}
-
-.sobre-content{
-    
 }
 
 .left{
@@ -190,4 +186,13 @@ a{
 
 .right p{
     margin-top: 225px;
+}/* ===== FIM SOBRE ===== */
+
+/* ===== CONTATO ===== */
+.contato{
+    height: 100vh;
+    width: 100%;
 }
+
+
+/* ===== FIM CONTATO ===== */
