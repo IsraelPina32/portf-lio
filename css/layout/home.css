@@ -1,0 +1,48 @@
+.HOME {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background-image: url(../../imgs/raverna.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #040109;
+}
+
+.HOME .btn {
+  background: transparent;
+  height: 40px;
+  width: 140px;
+  border: 1px solid white;
+  -webkit-box-shadow: #0d1c4a;
+          box-shadow: #0d1c4a;
+  font-family: 'Sarala', sans-serif;
+  font-size: 24px;
+  font-weight: 400px;
+  color: azure;
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
+}
+
+.HOME .btn:hover {
+  background: #16005c;
+  -webkit-transition: 0,5s;
+  transition: 0,5s;
+}
+
+.HOME .btn .fa-angle-down {
+  font-size: 60pt;
+  color: white;
+  -webkit-transform: translate(-100px, -20px);
+          transform: translate(-100px, -20px);
+  -webkit-animation: flutuando 2s ease-in-out infinite;
+          animation: flutuando 2s ease-in-out infinite;
+}
+/*# sourceMappingURL=home.css.map */
