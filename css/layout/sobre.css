@@ -90,6 +90,10 @@
   font-size: 30pt;
 }
 
+.sobre .sobre-titulo .sobre-content .right p {
+  margin-top: 225px;
+}
+
 .sobre .sobre-titulo h2 {
   color: white;
   text-align: center;
@@ -102,12 +106,4 @@
   height: 4px;
   background: white;
 }
-
-.left
-.right
-.right p {
-  margin-top: 225px;
-}
-
-/* ===== FIM SOBRE ===== */
 /*# sourceMappingURL=sobre.css.map */

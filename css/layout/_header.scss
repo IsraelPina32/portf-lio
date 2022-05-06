@@ -1,4 +1,4 @@
-$layout-name: "navegação";
+$layout-name: "navegacao-principal";
 
 .#{$layout-name} {
     .menu-fixo{
@@ -21,16 +21,15 @@ $layout-name: "navegação";
                 font-size: 20pt;
 
                 &:hover{
-                    .navegacao-container-foto:hover:hover{
-                        transform: rotate(360deg);
-                        transition: 1s;
-                        cursor: pointer;
+                    transform: rotate(360deg);
+                    transition: 1s;
+                    cursor: pointer;
                     }
                 }
 
-                .nave-intens{
-                    display: flex;
-                    flex-direction: row;
+            .nave-intens{
+                display: flex;
+                flex-direction: row;
 
                     li{
                         margin-left: 30px;
@@ -38,11 +37,9 @@ $layout-name: "navegação";
                     
                         &:hover{
                             border-bottom: 5px solid deepskyblue;
-                        }
                     }
-                    
                 }
-            }
+             }
         }
     }
 }

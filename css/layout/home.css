@@ -1,4 +1,8 @@
-.HOME {
+body {
+  background: #040109;
+}
+
+.home {
   height: 100vh;
   width: 100%;
   display: -webkit-box;
@@ -16,7 +20,7 @@
   background-color: #040109;
 }
 
-.HOME .btn {
+.home .btn {
   background: transparent;
   height: 40px;
   width: 140px;
@@ -31,18 +35,36 @@
           transform: translateY(-100px);
 }
 
-.HOME .btn:hover {
+.home .btn:hover {
   background: #16005c;
   -webkit-transition: 0,5s;
   transition: 0,5s;
 }
 
-.HOME .btn .fa-angle-down {
+.home .btn .fa-angle-down {
   font-size: 60pt;
   color: white;
   -webkit-transform: translate(-100px, -20px);
           transform: translate(-100px, -20px);
   -webkit-animation: flutuando 2s ease-in-out infinite;
           animation: flutuando 2s ease-in-out infinite;
+}
+
+@media (max-width: 1120px) {
+  .left, .right {
+    float: none;
+    margin: 0 50px 0 50px;
+  }
+  .sobre-content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sobre {
+    height: 129vh;
+  }
 }
 /*# sourceMappingURL=home.css.map */

@@ -1,6 +1,6 @@
-@import "/css/layout/home";
-@import "/css/layout/header";
-@import "/css/layout/sobre";
+@import "layout/header";
+@import "layout/sobre";
+@import "layout/home";
 
 *{
     margin: 0;
@@ -32,29 +32,10 @@ a{
 
 
 
+
+
 /* ===== CONTATO ===== */
 .contato{
     height: 100vh;
     width: 100%;
-}
-
-
-/* ===== FIM CONTATO ===== */
-
-/* MEDIA QUER */
-@media (max-width: 1120px){
-    .left, .right {
-        float: none;
-        margin: 0 50px 0 50px;
-        
-    }
-
-    .sobre-content{
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .sobre{
-        height: 129vh;
-    }
 }

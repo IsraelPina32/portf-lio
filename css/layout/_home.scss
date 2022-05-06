@@ -1,4 +1,4 @@
-$layout-name: "HOME";
+$layout-name: "home";
 
 .#{$layout-name} {
     height: 100vh;
@@ -28,13 +28,31 @@ $layout-name: "HOME";
         background: #16005c;
         transition: 0,5s;
 
-           }
-    .fa-angle-down{
-        font-size: 60pt;
-        color: white;
-        transform: translate(-100px, -20px);
-        animation: flutuando 2s ease-in-out infinite;
-        }
+            }
+        }    
+        .fa-angle-down{
+            font-size: 60pt;
+            color: white;
+            transform: translate(-100px, -20px);
+            animation: flutuando 2s ease-in-out infinite;
+            }   
+}
+
+
+// ===== MEDIA QUERY =====
+@media (max-width: 1120px){
+    .left, .right {
+        float: none;
+        margin: 0 50px 0 50px;
         
-      }       
+    }
+
+    .sobre-content{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .sobre{
+        height: 129vh;
+    }
 }
