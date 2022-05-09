@@ -1,0 +1,22 @@
+$component-name: "c-button";
+
+.#{$component-name} {
+    background: $cor-azul;
+    border-radius: $mobile-size;
+    color: $cor-white;
+    display: inline-block;
+    max-width: 210px;
+    padding: 9px 15px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 90ms ease-in;
+
+    &:hover{
+        background-color: $cor-azul-claro;
+        transition: all 90ms ease-out;
+    }
+
+    &:active{
+        transform: translateY(1.5px);
+    }
+}

@@ -1,0 +1,91 @@
+$component-name: "c-card";
+
+.#{$component-name} {
+     border-radius: 6px;
+     color: $cor-white;
+     display: flex;
+     flex-direction: column;
+     flex: 0.6;
+     height: 100%;
+     width: 100%;
+     justify-content: center;
+     position: absolute;
+     left: 0;
+     top: 0;
+     padding: 30px 60px;
+     transition: all $transition-duration-complex ease-in;
+
+    &.is-active{
+        clip-path: circle(100%);
+        transition-delay: 0s;
+        z-index: z-index(default);
+    }
+
+    &:not(.is-active){
+        transition-delay: $transition-duration-exit;
+    }
+
+    &--index{
+        background-color: $webfatorial-white;
+        color: $text-color;
+    }
+
+    &--instagram{
+        background: #e4405f;
+        clip-path: circle(
+        0% at 600px 90%);
+
+        .c-button{
+            background: #4f5bd5;
+
+            &:hover{
+                background-color: lighten(#4f5bd5, 5%);
+            }
+        }
+     }
+
+    &--linkedin{
+        background: #0077b5;
+        clip-path: circle(0% at 660px 90%);
+
+        .c-button{
+            background-color: #fcfcfc;
+            color: black;
+            &:hover{
+                background-color: darken(#fcfcfc, 15%);
+            }
+        }
+    }
+
+    &--twitter{
+        background: #00aced;
+        clip-path: circle(0% at 725px 90%);
+
+        .c-button{
+            background-color: #fcfcfc;
+            color: black;
+
+            &:hover{
+                background-color: darken(#fcfcfc, 10%);
+            }
+        }
+    }
+
+    &__title{
+        font-weight: normal;
+        line-height: 1;
+        margin: 0;
+
+    &-emphasis{
+        display: inline-block;
+        flex: 1;
+        font-size: 210%;
+        font-weight: bold;
+        width: 100%;
+      }
+    }
+    &__explanation{
+        line-height: 1.6;
+        margin: 30px 0;
+    }
+ }

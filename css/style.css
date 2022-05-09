@@ -52,6 +52,67 @@
   border-bottom: 5px solid deepskyblue;
 }
 
+.home {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background-image: url(../../imgs/raverna.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #040109;
+}
+
+.home-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home-btn .btn {
+  background: transparent;
+  height: 40px;
+  width: 140px;
+  border: 1px solid white;
+  -webkit-box-shadow: #0d1c4a;
+          box-shadow: #0d1c4a;
+  font-family: 'Sarala', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: azure;
+}
+
+.home-btn .btn:hover {
+  background: #16005c;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.home-btn .fa-angle-down {
+  font-size: 60pt;
+  color: white;
+  -webkit-animation: flutuando 2s ease-in-out infinite;
+          animation: flutuando 2s ease-in-out infinite;
+}
+
 .sobre {
   height: 100vh;
   width: 100%;
@@ -106,6 +167,7 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  color: white;
 }
 
 .sobre .sobre-content .left {
@@ -161,52 +223,261 @@
   margin-top: 225px;
 }
 
-.home {
-  height: 100vh;
+.contato {
+  background: black;
+  min-height: 120vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.contato .l-main {
+  background: #fff;
+  border-radius: 6px;
+  height: 432px;
+  width: 768px;
+  padding: 60px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15), 0 0 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.15), 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.c-button {
+  background: blue;
+  border-radius: 30px;
+  color: #fff;
+  display: inline-block;
+  max-width: 210px;
+  padding: 9px 15px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: all 90ms ease-in;
+  transition: all 90ms ease-in;
+}
+
+.c-button:hover {
+  background-color: #00ffff;
+  -webkit-transition: all 90ms ease-out;
+  transition: all 90ms ease-out;
+}
+
+.c-button:active {
+  -webkit-transform: translateY(1.5px);
+          transform: translateY(1.5px);
+}
+
+.c-card {
+  border-radius: 6px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 0.6;
+      -ms-flex: 0.6;
+          flex: 0.6;
+  height: 100%;
+  width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 30px 60px;
+  -webkit-transition: all 385ms ease-in;
+  transition: all 385ms ease-in;
+}
+
+.c-card.is-active {
+  -webkit-clip-path: circle(100%);
+          clip-path: circle(100%);
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+  z-index: z-index(default);
+}
+
+.c-card:not(.is-active) {
+  -webkit-transition-delay: 205ms;
+          transition-delay: 205ms;
+}
+
+.c-card--index {
+  background-color: #fcfcfc;
+  color: #363636;
+}
+
+.c-card--instagram {
+  background: #e4405f;
+  -webkit-clip-path: circle(0% at 600px 90%);
+          clip-path: circle(0% at 600px 90%);
+}
+
+.c-card--instagram .c-button {
+  background: #4f5bd5;
+}
+
+.c-card--instagram .c-button:hover {
+  background-color: #646eda;
+}
+
+.c-card--linkedin {
+  background: #0077b5;
+  -webkit-clip-path: circle(0% at 660px 90%);
+          clip-path: circle(0% at 660px 90%);
+}
+
+.c-card--linkedin .c-button {
+  background-color: #fcfcfc;
+  color: black;
+}
+
+.c-card--linkedin .c-button:hover {
+  background-color: #d6d6d6;
+}
+
+.c-card--twitter {
+  background: #00aced;
+  -webkit-clip-path: circle(0% at 725px 90%);
+          clip-path: circle(0% at 725px 90%);
+}
+
+.c-card--twitter .c-button {
+  background-color: #fcfcfc;
+  color: black;
+}
+
+.c-card--twitter .c-button:hover {
+  background-color: #e3e3e3;
+}
+
+.c-card__title {
+  font-weight: normal;
+  line-height: 1;
+  margin: 0;
+}
+
+.c-card__title-emphasis {
+  display: inline-block;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 210%;
+  font-weight: bold;
+  width: 100%;
+}
+
+.c-card__explanation {
+  line-height: 1.6;
+  margin: 30px 0;
+}
+
+.c-menu {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  background-image: url(../../imgs/raverna.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #040109;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 30px 30px 0;
+  position: absolute;
+  right: 0;
 }
 
-.home .btn {
+.c-menu__item {
+  z-index: z-index(dropdown);
+  margin-left: 15px;
+}
+
+.c-menu__item--index {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+.c-menu__toggle {
   background: transparent;
-  height: 40px;
-  width: 140px;
-  border: 1px solid white;
-  -webkit-box-shadow: #0d1c4a;
-          box-shadow: #0d1c4a;
-  font-family: 'Sarala', sans-serif;
-  font-size: 24px;
-  font-weight: 400px;
-  color: azure;
-  -webkit-transform: translateY(-100px);
-          transform: translateY(-100px);
+  border: 0;
+  bottom: 30px;
+  cursor: pointer;
+  right: 30px;
+  padding: 0;
+  height: 30px;
+  width: 48px;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
 }
 
-.home .btn:hover {
-  background: #16005c;
-  -webkit-transition: 0,5s;
-  transition: 0,5s;
+.c-menu__toggle:active {
+  -webkit-transform: translateY(1.5px);
+          transform: translateY(1.5px);
 }
 
-.home .fa-angle-down {
-  font-size: 60pt;
+.c-menu__toggle.is-active {
+  fill: #fcfcfc;
+  pointer-events: none;
+}
+
+.c-menu__toggle > * {
+  pointer-events: none;
+}
+
+.c-menu__toggle svg {
+  width: 21px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
   color: white;
-  -webkit-transform: translate(-100px, -20px);
-          transform: translate(-100px, -20px);
-  -webkit-animation: flutuando 2s ease-in-out infinite;
-          animation: flutuando 2s ease-in-out infinite;
+}
+
+/* ===KEYFRAMES=== */
+@-webkit-keyframes flutuando {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+  50% {
+    -webkit-transform: translate(0px, -15px);
+            transform: translate(0px, -15px);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+}
+@keyframes flutuando {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+  50% {
+    -webkit-transform: translate(0px, -15px);
+            transform: translate(0px, -15px);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
 }
 
 @media (max-width: 1120px) {
@@ -225,54 +496,5 @@
   .sobre {
     height: 129vh;
   }
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  color: white;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-/* ===KEYFRAMES=== */
-@-webkit-keyframes flutuando {
-  0% {
-    -webkit-transform: translate(-100px, -20px);
-            transform: translate(-100px, -20px);
-  }
-  50% {
-    -webkit-transform: translate(-100px, 0px);
-            transform: translate(-100px, 0px);
-  }
-  100% {
-    -webkit-transform: translate(-100px, -20px);
-            transform: translate(-100px, -20px);
-  }
-}
-@keyframes flutuando {
-  0% {
-    -webkit-transform: translate(-100px, -20px);
-            transform: translate(-100px, -20px);
-  }
-  50% {
-    -webkit-transform: translate(-100px, 0px);
-            transform: translate(-100px, 0px);
-  }
-  100% {
-    -webkit-transform: translate(-100px, -20px);
-            transform: translate(-100px, -20px);
-  }
-}
-
-/* ===== CONTATO ===== */
-.contato {
-  height: 100vh;
-  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

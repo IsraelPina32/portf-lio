@@ -1,0 +1,20 @@
+$layout-name: "contato";
+
+.#{$layout-name} {
+    background: black;
+    min-height: 120vh;
+    width: 100%;
+    display: flex;
+
+    .l-main{
+        background: $cor-white;
+        border-radius: 6px;
+        height: 432px;
+        width: 768px;
+        padding: $mobile-size * 2;
+        position: relative;
+        display: flex;
+        margin: auto;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.15), 0 0 30px rgba(0, 0, 0, 0.1);
+    }
+}

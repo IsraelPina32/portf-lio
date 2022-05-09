@@ -1,0 +1,52 @@
+$component-name: "c-menu";
+
+.#{$component-name} {
+    align-items: flex-end;
+    bottom: 0;
+    display: flex;
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 30px 30px 0;
+    position: absolute;
+    right: 0;
+
+    &__item{
+        z-index: z-index(dropdown);
+        margin-left: 15px;
+
+        &--index{
+            position: absolute;
+            right: 30px;
+            top: 30px;
+        }
+    }
+    &__toggle{
+        background: transparent;
+        border: 0;
+        bottom: 30px;
+        cursor: pointer;
+        right: 30px;
+        padding: 0;
+        height: 30px;
+        width: 48px;
+        transition: all $transition-duration-fast ease-in-out;
+
+        &:active{
+            transform: translateY(1.5px);
+        }
+
+        &.is-active{
+            fill: $webfatorial-white;
+            pointer-events: none;
+        }
+
+        > * {
+            pointer-events: none;
+        }
+
+        svg{
+            width: 21px;
+        }
+    }
+}
