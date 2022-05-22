@@ -2,6 +2,7 @@
   position: fixed;
   width: 100%;
   height: 8vh;
+  z-index: 2;
 }
 
 .navegacao-principal .menu-fixo .navegacao-container {
@@ -114,7 +115,7 @@
 }
 
 .sobre {
-  height: 100vh;
+  height: 70vh;
   width: 100%;
   background: black;
   display: -webkit-box;
@@ -223,6 +224,148 @@
   margin-top: 225px;
 }
 
+.projetos {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: black;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.projetos .projetos-titulo {
+  margin-top: 200px;
+  width: 100%;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projetos .projetos-titulo h2 {
+  color: white;
+  text-align: center;
+  font-size: 30pt;
+  text-transform: uppercase;
+}
+
+.projetos .projetos-titulo .linha {
+  width: 70px;
+  height: 4px;
+  background: white;
+}
+
+.projetos .projetos-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.projetos .projetos-container .projetos-img1 {
+  background-image: url(https://viscircle.de/wp-content/uploads/2018/10/blender-weisses-logo.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.projetos .projetos-container .projetos-img2 {
+  background-image: url(../../imgs/imagem.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: 1s ease-out;
+  transition: 1s ease-out;
+}
+
+.projetos .projetos-container .projetos-img2:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  background-size: 110%;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.projetos .projetos-container .projetos-img3 {
+  background-image: url(../../imgs/figma2.png);
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: center;
+}
+
+.projetos .projetos-container .projetos-card {
+  width: 500px;
+  height: 500px;
+  border: 1px white solid;
+  margin: 50px 50px 50px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 8px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.projetos .projetos-container .projetos-card:hover .projetos-card-btn {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  opacity: 0;
+  -webkit-transition: 0.8s ease-in-out;
+  transition: 0.8s ease-in-out;
+}
+
+.projetos .projetos-container .projetos-card .projetos-card-btn {
+  width: 90px;
+  padding: 8px;
+  margin-bottom: 25px;
+  color: black;
+  cursor: pointer;
+  background: none;
+  border: white 1px solid;
+  color: azure;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.projetos .projetos-container .projetos-card .projetos-card-btn:hover {
+  background: #066464;
+}
+
 .contato {
   background: black;
   min-height: 120vh;
@@ -230,6 +373,45 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contato .contato-titulo {
+  width: 100%;
+  height: 10vh;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contato .contato-titulo h2 {
+  color: white;
+  text-align: center;
+  font-size: 30pt;
+  text-transform: uppercase;
+}
+
+.contato .contato-titulo .linha {
+  width: 70px;
+  height: 4px;
+  background: white;
 }
 
 .contato .l-main {
@@ -242,7 +424,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: auto;
+  margin: 50px auto 50px auto;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15), 0 0 30px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.15), 0 0 30px rgba(0, 0, 0, 0.1);
 }

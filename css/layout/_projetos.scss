@@ -1,0 +1,107 @@
+$layout-name: "projetos";
+
+.#{$layout-name}{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    flex-direction: column;
+
+    .projetos-titulo{
+        margin-top: 200px;
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+
+        h2{
+            color: white;
+            text-align: center;
+            font-size: 30pt;
+            text-transform: uppercase;
+        }
+    .linha{
+        width: 70px;
+        height: 4px;
+        background: white;
+    }
+    }
+    
+    .projetos-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+ 
+    .projetos-img1{
+        background-image: url(https://viscircle.de/wp-content/uploads/2018/10/blender-weisses-logo.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+    }
+
+  .projetos-img2{
+        background-image: url(../../imgs/imagem.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        filter: grayscale(100%);
+        transition: 1s ease-out;
+
+        &:hover{
+            filter: grayscale(0%);
+            background-size: 110%;
+            transition: 1s ease;
+        }
+    }
+    
+    .projetos-img3{
+        background-image: url(../../imgs/figma2.png);
+        background-repeat: no-repeat;
+        background-size: 120%;
+        background-position: center;
+    }
+
+    .projetos-card{
+        width: 500px;
+        height: 500px;
+        border: 1px white solid;
+        margin: 50px 50px 50px 50px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        border-radius: 8px;
+        transition: 1s;
+
+        &:hover  .projetos-card-btn{
+            transform: rotate(360deg);
+            opacity: 0;
+            transition: 0.8s ease-in-out;
+        }
+  
+    .projetos-card-btn{
+        width: 90px;
+        padding: 8px;
+        margin-bottom: 25px;
+        color: black;
+        cursor: pointer;
+        background: none;
+        border: white 1px solid;
+        color: azure;
+        transition: 1s;
+
+        &:hover{
+            background: rgb(6, 100, 100);
+        }
+
+          }
+
+          }
+
+    }
+}
