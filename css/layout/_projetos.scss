@@ -37,6 +37,7 @@ $layout-name: "projetos";
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+        height: 100%;
  
     .projetos-img1{
         background-image: url(https://viscircle.de/wp-content/uploads/2018/10/blender-weisses-logo.png);
@@ -60,7 +61,7 @@ $layout-name: "projetos";
         }
     }
     
-    .projetos-img3{
+    .projetos-img3{  
         background-image: url(../../imgs/figma2.png);
         background-repeat: no-repeat;
         background-size: 120%;
