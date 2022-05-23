@@ -38,17 +38,6 @@ a{
 
 // ===== MEDIA QUERY =====
 @media (max-width: 1120px){
-   .left, .right {
-       float: none;
-       margin: 0 50px 0 50px;
-       
-   }
-
-   .sobre-content{
-       justify-content: center;
-       align-items: center;
-   }
-   
    .sobre{
        height: 129vh;
    }
@@ -56,12 +45,12 @@ a{
 
 @media(max-width: 1799px){
     .projetos{
-        height: 150vh;
+        height: 200vh;
     }
 }
 
 @media (max-width:1199px) {
     .projetos{
-        height: 200vh;
+        height: 250vh;
     }
 }
