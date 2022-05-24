@@ -44,6 +44,7 @@ $layout-name: "projetos";
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: center;
+        object-fit: cover;
     }
 
   .projetos-img2{
@@ -53,6 +54,7 @@ $layout-name: "projetos";
         background-position: center;
         filter: grayscale(100%);
         transition: 1s ease-out;
+        object-fit: cover;
 
         &:hover{
             filter: grayscale(0%);
@@ -66,6 +68,7 @@ $layout-name: "projetos";
         background-repeat: no-repeat;
         background-size: 120%;
         background-position: center;
+        object-fit: cover;
     }
 
     .projetos-card{

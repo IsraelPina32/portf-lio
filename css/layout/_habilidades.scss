@@ -2,6 +2,7 @@ $layout-name: "habilidades-sessao";
 
 .#{$layout-name} {
     height: 110vh;
+    background: black;
 
     .habilidades-titulo{
         width: 100%;
@@ -14,7 +15,7 @@ $layout-name: "habilidades-sessao";
       
 
         h2{
-            color: black;
+            color: #fff;
             text-align: center;
             font-size: 30pt;
             text-transform: uppercase;
@@ -22,7 +23,7 @@ $layout-name: "habilidades-sessao";
     .linha{
         width: 70px;
         height: 4px;
-        background: black;
+        background: white;
     }
     }
     .conhecimentos{
@@ -36,7 +37,7 @@ $layout-name: "habilidades-sessao";
         .conhecimento-header{
             display: flex;
             align-items: center;
-            color: #4b4b4b;
+            color: #fff;
 
             i {
                 font-size: 2.5rem;
@@ -49,6 +50,7 @@ $layout-name: "habilidades-sessao";
         }
         .conhecimento-text{
             margin-top: 1rem;
+            color: #fff;
         }
     }
 
@@ -77,16 +79,16 @@ $layout-name: "habilidades-sessao";
         grid-row: 5/-1;
     }
 
-    // .conhecimentos-img{
-    //     grid-column: 7/11;
-    //     grid-row: 2/6;
-    //     width: 80%;
-    //     height: 80%;
+    .conhecimentos-img{
+        grid-column: 7/11;
+        grid-row: 2/6;
+        width: 80%;
+        height: 80%;
 
-    //     img{
-    //         object-fit: cover;
-    //         height: 100%;
-    //     }
-    // }
+        img{
+            object-fit: cover;
+            height: 100%;
+        }
+    }
     }
 }

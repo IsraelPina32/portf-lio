@@ -1,7 +1,7 @@
 .navegacao-principal .menu-fixo {
   position: fixed;
   width: 100%;
-  height: 8vh;
+  height: 10vh;
   z-index: 2;
 }
 
@@ -14,13 +14,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 8vh;
+  height: 10vh;
   background: #2a1421;
   color: white;
 }
 
 .navegacao-principal .menu-fixo .navegacao-container .navegacao-container-foto {
-  height: 75px;
+  height: 55px;
   border-radius: 40px;
   margin-right: 15vw;
   font-size: 20pt;
@@ -136,7 +136,7 @@
 .sobre .sobre-titulo {
   width: 100%;
   height: 10vh;
-  margin-top: 100px;
+  margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -230,6 +230,7 @@
 
 .habilidades-sessao {
   height: 110vh;
+  background: black;
 }
 
 .habilidades-sessao .habilidades-titulo {
@@ -251,7 +252,7 @@
 }
 
 .habilidades-sessao .habilidades-titulo h2 {
-  color: black;
+  color: #fff;
   text-align: center;
   font-size: 30pt;
   text-transform: uppercase;
@@ -260,7 +261,7 @@
 .habilidades-sessao .habilidades-titulo .linha {
   width: 70px;
   height: 4px;
-  background: black;
+  background: white;
 }
 
 .habilidades-sessao .conhecimentos {
@@ -281,7 +282,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #4b4b4b;
+  color: #fff;
 }
 
 .habilidades-sessao .conhecimentos .conhecimento .conhecimento-header i {
@@ -296,6 +297,7 @@
 
 .habilidades-sessao .conhecimentos .conhecimento .conhecimento-text {
   margin-top: 1rem;
+  color: #fff;
 }
 
 .habilidades-sessao .conhecimentos .conhecimento:nth-child(1) {
@@ -346,6 +348,23 @@
   -ms-grid-column-span: 3;
   grid-column: 11/14;
   grid-row: 5/-1;
+}
+
+.habilidades-sessao .conhecimentos .conhecimentos-img {
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 4;
+  grid-column: 7/11;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  grid-row: 2/6;
+  width: 80%;
+  height: 80%;
+}
+
+.habilidades-sessao .conhecimentos .conhecimentos-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
 }
 
 .projetos {
@@ -419,6 +438,8 @@
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .projetos .projetos-container .projetos-img2 {
@@ -430,6 +451,8 @@
           filter: grayscale(100%);
   -webkit-transition: 1s ease-out;
   transition: 1s ease-out;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .projetos .projetos-container .projetos-img2:hover {
@@ -445,6 +468,8 @@
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .projetos .projetos-container .projetos-card {

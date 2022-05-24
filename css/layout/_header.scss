@@ -4,19 +4,19 @@ $layout-name: "navegacao-principal";
     .menu-fixo{
         position: fixed;
         width: 100%;
-        height: 8vh;
+        height: 10vh;
         z-index: 2;
 
         .navegacao-container{
             display: flex;
             justify-content: space-around;
             align-items: center;
-            height: 8vh;
+            height: 10vh;
             background: #2a1421;
             color: white;
 
             .navegacao-container-foto{
-                height: 75px;
+                height: 55px;
                 border-radius: 40px;
                 margin-right: 15vw;
                 font-size: 20pt;
