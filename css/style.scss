@@ -20,6 +20,29 @@ a{
     color: white;
 }
 
+/* TITULO PADRAO */
+.titulo{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2{
+        color: white;
+        text-align: center;
+        font-size: 30pt;
+        text-transform: uppercase;
+    }
+    .linha{
+        width: 70px;
+        height: 4px;
+        background: white;
+    }
+}
+
+
 /* ===KEYFRAMES=== */
 @keyframes flutuando{
      0%{
@@ -51,3 +74,4 @@ a{
         height: 250vh;
     }
 }
+

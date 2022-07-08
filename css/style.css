@@ -15,7 +15,7 @@
       -ms-flex-align: center;
           align-items: center;
   height: 10vh;
-  background: #2a1421;
+  background: #33d54e;
   color: white;
 }
 
@@ -133,38 +133,6 @@
           justify-content: center;
 }
 
-.sobre .sobre-titulo {
-  width: 100%;
-  height: 10vh;
-  margin-top: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.sobre .sobre-titulo h2 {
-  color: white;
-  text-align: center;
-  font-size: 30pt;
-  text-transform: uppercase;
-}
-
-.sobre .sobre-titulo .linha {
-  width: 70px;
-  height: 4px;
-  background: white;
-}
-
 .sobre .sobre-content {
   height: 100%;
   width: 100%;
@@ -230,38 +198,7 @@
 
 .habilidades-sessao {
   height: 110vh;
-  background: black;
-}
-
-.habilidades-sessao .habilidades-titulo {
-  width: 100%;
-  height: 10vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.habilidades-sessao .habilidades-titulo h2 {
-  color: #fff;
-  text-align: center;
-  font-size: 30pt;
-  text-transform: uppercase;
-}
-
-.habilidades-sessao .habilidades-titulo .linha {
-  width: 70px;
-  height: 4px;
-  background: white;
+  background: #252934;
 }
 
 .habilidades-sessao .conhecimentos {
@@ -386,37 +323,6 @@
           flex-direction: column;
 }
 
-.projetos .projetos-titulo {
-  width: 100%;
-  height: 10vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.projetos .projetos-titulo h2 {
-  color: white;
-  text-align: center;
-  font-size: 30pt;
-  text-transform: uppercase;
-}
-
-.projetos .projetos-titulo .linha {
-  width: 70px;
-  height: 4px;
-  background: white;
-}
-
 .projetos .projetos-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -517,7 +423,7 @@
 }
 
 .contato {
-  background: black;
+  background: #252934;
   min-height: 100vh;
   width: 100%;
   display: -webkit-box;
@@ -530,37 +436,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-.contato .contato-titulo {
-  width: 100%;
-  height: 10vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.contato .contato-titulo h2 {
-  color: white;
-  text-align: center;
-  font-size: 30pt;
-  text-transform: uppercase;
-}
-
-.contato .contato-titulo .linha {
-  width: 70px;
-  height: 4px;
-  background: white;
 }
 
 .contato .l-main {
@@ -779,6 +654,38 @@
 a {
   text-decoration: none;
   color: white;
+}
+
+/* TITULO PADRAO */
+.titulo {
+  width: 100%;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.titulo h2 {
+  color: white;
+  text-align: center;
+  font-size: 30pt;
+  text-transform: uppercase;
+}
+
+.titulo .linha {
+  width: 70px;
+  height: 4px;
+  background: white;
 }
 
 /* ===KEYFRAMES=== */
