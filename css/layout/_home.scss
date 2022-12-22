@@ -6,10 +6,9 @@ $layout-name: "home";
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-image: url(../../imgs/raverna.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #040109;
+    background-color: white;
 
     &-btn{
         width: 100%;
@@ -22,21 +21,23 @@ $layout-name: "home";
         background: transparent ;
         height: 40px;
         width: 140px;
-        border: 1px solid white;
+        border: 1px solid black;
         box-shadow: #0d1c4a;
         font-family: 'Sarala', sans-serif;
         font-size: 24px;
         font-weight: 400;
-        color: azure;
+        color: black;
 
         &:hover{
-        background: #16005c;
-        transition: 1s;
+        background: black;
+        color: white;
+        transition: 1.8s;
+        cursor: pointer;
             }
         }    
         .fa-angle-down{
             font-size: 60pt;
-            color: white;
+            color: black;
             animation: flutuando 2s ease-in-out infinite;
             }   
         }

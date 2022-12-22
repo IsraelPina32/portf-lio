@@ -20,6 +20,8 @@ a{
     color: white;
 }
 
+
+
 /* TITULO PADRAO */
 .titulo{
     width: 100%;
@@ -57,21 +59,3 @@ a{
 }
 
 // ===== MEDIA QUERY =====
-@media (max-width: 1120px){
-   .sobre{
-       height: 129vh;
-   }
-}
-
-@media(max-width: 1799px){
-    .projetos{
-        height: 200vh;
-    }
-}
-
-@media (max-width:1199px) {
-    .projetos{
-        height: 250vh;
-    }
-}
-

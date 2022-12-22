@@ -15,7 +15,7 @@
       -ms-flex-align: center;
           align-items: center;
   height: 10vh;
-  background: #33d54e;
+  background: black;
   color: white;
 }
 
@@ -65,10 +65,9 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  background-image: url(../../imgs/raverna.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #040109;
+  background-color: white;
 }
 
 .home-btn {
@@ -92,30 +91,31 @@
   background: transparent;
   height: 40px;
   width: 140px;
-  border: 1px solid white;
+  border: 1px solid black;
   -webkit-box-shadow: #0d1c4a;
           box-shadow: #0d1c4a;
   font-family: 'Sarala', sans-serif;
   font-size: 24px;
   font-weight: 400;
-  color: azure;
+  color: black;
 }
 
 .home-btn .btn:hover {
-  background: #16005c;
-  -webkit-transition: 1s;
-  transition: 1s;
+  background: black;
+  color: white;
+  -webkit-transition: 1.8s;
+  transition: 1.8s;
+  cursor: pointer;
 }
 
 .home-btn .fa-angle-down {
   font-size: 60pt;
-  color: white;
+  color: black;
   -webkit-animation: flutuando 2s ease-in-out infinite;
           animation: flutuando 2s ease-in-out infinite;
 }
 
 .sobre {
-  height: 100vh;
   width: 100%;
   background: black;
   display: -webkit-box;
@@ -134,7 +134,6 @@
 }
 
 .sobre .sobre-content {
-  height: 100%;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -144,9 +143,13 @@
   color: white;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
-.sobre .sobre-content .left {
+.sobre .sobre-content .sobre-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -161,43 +164,24 @@
       -ms-flex-pack: center;
           justify-content: center;
   width: 500px;
-  height: 450px;
+  margin: 2.5rem 2.5rem 0 2.5rem;
 }
 
-.sobre .sobre-content .left img {
-  width: 500px;
+.sobre .sobre-content .sobre-card img {
+  height: 200px;
+  width: 50%;
+  border-radius: 50%;
 }
 
-.sobre .sobre-content .right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 500px;
-  height: 450px;
+.sobre .sobre-content .sobre-card p {
+  margin: 2.5rem 0 5rem 0;
 }
 
-.sobre .sobre-content .right h2 {
-  -webkit-transform: translateY(100px);
-          transform: translateY(100px);
-  font-size: 30pt;
-}
-
-.sobre .sobre-content .right p {
-  margin-top: 225px;
+.sobre .sobre-content .sobre-card h2 {
+  margin-top: 1.5rem;
 }
 
 .habilidades-sessao {
-  height: 110vh;
   background: #252934;
 }
 
@@ -305,7 +289,6 @@
 }
 
 .projetos {
-  height: 100vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -424,7 +407,6 @@
 
 .contato {
   background: #252934;
-  min-height: 100vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -715,24 +697,6 @@ a {
   100% {
     -webkit-transform: translate(0px, 0px);
             transform: translate(0px, 0px);
-  }
-}
-
-@media (max-width: 1120px) {
-  .sobre {
-    height: 129vh;
-  }
-}
-
-@media (max-width: 1799px) {
-  .projetos {
-    height: 200vh;
-  }
-}
-
-@media (max-width: 1199px) {
-  .projetos {
-    height: 250vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
