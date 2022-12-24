@@ -23,7 +23,7 @@ $layout-name: "navegacao-principal";
 
                 &:hover{
                     transform: rotate(360deg);
-                    transition: 1s;
+                    transition: 0.5s;
                     cursor: pointer;
                     }
                 }
@@ -33,11 +33,11 @@ $layout-name: "navegacao-principal";
                 flex-direction: row;
 
                     li{
-                        margin-left: 30px;
+                        margin-left: 50px;
                         font-size: 17pt;
                     
                         &:hover{
-                            border-bottom: 5px solid deepskyblue;
+                            border-bottom: 5px solid white;
                     }
                 }
              }

@@ -9,10 +9,11 @@ $layout-name: "home";
     background-repeat: no-repeat;
     background-position: center;
     background-color: white;
-    background-image: url(/imgs/progamando.jpg);
-    
-    
+    background-image: url(/imgs/Logo_Definitiva.jpg);
 
+    
+    
+            
     &-btn{
         width: 100%;
         display: flex;
@@ -43,5 +44,9 @@ $layout-name: "home";
             color: black;
             animation: flutuando 2s ease-in-out infinite;
             }   
+        }
+        p{
+                  font-family: 'Kdam Thmor Pro', sans-serif;
+                    margin-top: 1.5rem;
         }
 }

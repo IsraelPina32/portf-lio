@@ -30,8 +30,8 @@
 .navegacao-principal .menu-fixo .navegacao-container .navegacao-container-foto:hover {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   cursor: pointer;
 }
 
@@ -46,12 +46,12 @@
 }
 
 .navegacao-principal .menu-fixo .navegacao-container .nave-intens li {
-  margin-left: 30px;
+  margin-left: 50px;
   font-size: 17pt;
 }
 
 .navegacao-principal .menu-fixo .navegacao-container .nave-intens li:hover {
-  border-bottom: 5px solid deepskyblue;
+  border-bottom: 5px solid white;
 }
 
 .home {
@@ -69,7 +69,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-color: white;
-  background-image: url(/imgs/progamando.jpg);
+  background-image: url(/imgs/Logo_Definitiva.jpg);
 }
 
 .home-btn {
@@ -115,6 +115,11 @@
   color: black;
   -webkit-animation: flutuando 2s ease-in-out infinite;
           animation: flutuando 2s ease-in-out infinite;
+}
+
+.home p {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  margin-top: 1.5rem;
 }
 
 .sobre {
@@ -178,12 +183,12 @@
 .sobre .sobre-content .sobre-card p {
   margin: 2.5rem 0 5rem 0;
   font-family: 'Kdam Thmor Pro', sans-serif;
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
 }
 
 .sobre .sobre-content .sobre-card h2 {
   font-family: 'Kdam Thmor Pro', sans-serif;
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
 }
 
 .habilidades-sessao {
@@ -219,11 +224,14 @@
   font-family: var(--font-secundary);
   font-size: 2rem;
   padding-left: 1rem;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  margin-top: 0.5rem;
 }
 
 .habilidades-sessao .conhecimentos .conhecimento .conhecimento-text {
   margin-top: 1rem;
   color: #fff;
+  font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
 .habilidades-sessao .conhecimentos .conhecimento:nth-child(1) {
@@ -328,7 +336,7 @@
 }
 
 .projetos .projetos-container .projetos-img1 {
-  background-image: url(https://viscircle.de/wp-content/uploads/2018/10/blender-weisses-logo.png);
+  background-image: url(/imgs//motinha.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -337,7 +345,7 @@
 }
 
 .projetos .projetos-container .projetos-img2 {
-  background-image: url(../../imgs/imagem.jpg);
+  background-image: url(../../imgs/web.webp);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -358,7 +366,7 @@
 }
 
 .projetos .projetos-container .projetos-img3 {
-  background-image: url(../../imgs/figma2.png);
+  background-image: url(../../imgs/Editor_Video.jpg);
   background-repeat: no-repeat;
   background-size: 120%;
   background-position: center;
