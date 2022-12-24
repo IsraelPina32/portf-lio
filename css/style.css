@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Sarala&display=swap");
 .navegacao-principal .menu-fixo {
   position: fixed;
   width: 100%;
@@ -68,6 +69,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-color: white;
+  background-image: url(/imgs/progamando.jpg);
 }
 
 .home-btn {
@@ -175,9 +177,12 @@
 
 .sobre .sobre-content .sobre-card p {
   margin: 2.5rem 0 5rem 0;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  margin-top: 1.5rem;
 }
 
 .sobre .sobre-content .sobre-card h2 {
+  font-family: 'Kdam Thmor Pro', sans-serif;
   margin-top: 1.5rem;
 }
 
