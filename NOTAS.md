@@ -1,14 +1,14 @@
 ## O que está faltando:
 
 - Pegar referências de portfolios de outros programadores front-end
--Animação na sessão contato sobre as cores
--tamanho responsivo na sessão home
--animação mais fulida na header e home
--atualizar os icones na sessão contato
--melhorar a sessão projetos com elementos 
--melhora a sessão projeto
--deixar responsive o site tanto para mobile e web.
--Melhora a sessão Contato add o email.
+- Animação na sessão contato sobre as cores
+- Tamanho responsivo na sessão home
+- Animação mais fulida na header e home
+- Atualizar os icones na sessão contato
+- Melhorar a sessão projetos com elementos 
+- Melhora a sessão projeto
+- Deixar responsive o site tanto para mobile e web.
+- Melhora a sessão Contato add o email.
 
 
 ## O que está feito:
