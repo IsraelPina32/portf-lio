@@ -1,6 +1,6 @@
 ## O que está faltando:
 
--Pegar referências de portfolios de outros programadores front-end
+- Pegar referências de portfolios de outros programadores front-end
 -Animação na sessão contato sobre as cores
 -tamanho responsivo na sessão home
 -animação mais fulida na header e home
