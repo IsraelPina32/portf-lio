@@ -55,7 +55,7 @@
 }
 
 .home {
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -100,6 +100,7 @@
   font-size: 24px;
   font-weight: 400;
   color: black;
+  border-radius: 20px;
 }
 
 .home-btn .btn:hover {
@@ -120,6 +121,7 @@
 .home p {
   font-family: 'Kdam Thmor Pro', sans-serif;
   margin-top: 1.5rem;
+  height: 4.5rem;
 }
 
 .sobre {
@@ -199,9 +201,9 @@
   height: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[16];
+  -ms-grid-columns: (1fr)[];
       grid-template-columns: repeat(16, 1fr);
-  -ms-grid-rows: (6rem)[6];
+  -ms-grid-rows: (6rem)[];
       grid-template-rows: repeat(6, 6rem);
   row-gap: 0.5rem;
 }
@@ -345,7 +347,7 @@
 }
 
 .projetos .projetos-container .projetos-img2 {
-  background-image: url(../../imgs/web.webp);
+  background-image: url(../../imgs/semfundo.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -366,9 +368,9 @@
 }
 
 .projetos .projetos-container .projetos-img3 {
-  background-image: url(../../imgs/Editor_Video.jpg);
+  background-image: url(../../imgs/Edtitor.web.jpg);
   background-repeat: no-repeat;
-  background-size: 120%;
+  background-size: 80%;
   background-position: center;
   -o-object-fit: cover;
      object-fit: cover;
@@ -419,7 +421,7 @@
 }
 
 .contato {
-  background: #252934;
+  background: #dadadd;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -446,6 +448,10 @@
   margin: 50px auto 50px auto;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15), 0 0 30px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0 15px rgba(0, 0, 0, 0.15), 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.contato .l-main h2 {
+  color: black;
 }
 
 .c-button {

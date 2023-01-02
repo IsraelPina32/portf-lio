@@ -1,7 +1,7 @@
 $layout-name: "contato";
 
 .#{$layout-name} {
-    background: #252934;
+    background: #dadadd;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -17,5 +17,10 @@ $layout-name: "contato";
         display: flex;
         margin: 50px auto 50px auto;
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.15), 0 0 30px rgba(0, 0, 0, 0.1);
+        h2{
+            color: black;
+        }
+      
     }
+    
 }

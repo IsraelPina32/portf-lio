@@ -1,7 +1,7 @@
 $layout-name: "home";
 
 .#{$layout-name} {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -31,6 +31,7 @@ $layout-name: "home";
         font-size: 24px;
         font-weight: 400;
         color: black;
+        border-radius: 20px;
 
         &:hover{
         background: black;
@@ -48,5 +49,6 @@ $layout-name: "home";
         p{
                   font-family: 'Kdam Thmor Pro', sans-serif;
                     margin-top: 1.5rem;
+                    height: 4.5rem;                    
         }
 }

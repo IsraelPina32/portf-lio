@@ -1,14 +1,14 @@
 ## O que está faltando:
 
-- Pegar referências de portfolios de outros programadores front-end
+-Pegar referências de portfolios de outros programadores front-end
 -Animação na sessão contato sobre as cores
-- tamanho esponsivel na sessão home
-- animação mais fulida na no header e home
-- foto de perfil na sessão sobre
-- atualizar os icones na sessão contato
-- melhorar a sessão projetos em elementos 
-- melhora a sessão projeto
-- deixar esponsivel o site tanto para mobile e web.
+-tamanho responsivo na sessão home
+-animação mais fulida na header e home
+-atualizar os icones na sessão contato
+-melhorar a sessão projetos com elementos 
+-melhora a sessão projeto
+-deixar responsive o site tanto para mobile e web.
+-Melhora a sessão Contato add o email.
 
 
 ## O que está feito:
@@ -16,3 +16,4 @@
 -Add conteudo ao meu perfil tanto na sessão habilidade,contato,sobre e home
 -Add Logo na sessão home
 -Add icone  na pagina
+-Foto de perfil
