@@ -1,7 +1,7 @@
 $layout-name: "habilidades-sessao";
 
 .#{$layout-name} {
-    background: #252934;
+    background: whitesmoke;
     
     .conhecimentos{
         height: 100%;
@@ -14,7 +14,7 @@ $layout-name: "habilidades-sessao";
         .conhecimento-header{
             display: flex;
             align-items: center;
-            color: #fff;
+            color: $text-color;
 
             i {
                 font-size: 2.5rem;
@@ -26,12 +26,13 @@ $layout-name: "habilidades-sessao";
                 padding-left: 1rem;
                 font-family: 'Kdam Thmor Pro', sans-serif;
                 margin-top: 0.5rem;
+                color: $text-color;
                 
               }
         }
         .conhecimento-text{
             margin-top: 1rem;
-            color: #fff;
+            color: $text-color;
             font-family: 'Kdam Thmor Pro', sans-serif;
         }
     }

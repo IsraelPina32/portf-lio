@@ -7,6 +7,7 @@ $layout-name: "sobre";
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 3.5rem 0 ;
 
         .sobre-content{
             width: 100%;
@@ -27,7 +28,8 @@ $layout-name: "sobre";
                 img{
                     height: 200px;
                     width: 50%;
-                    border-radius: 50%;
+                    clip-path: circle(50% at 50% 50%);
+                    // border-radius: 50%;
                 }
 
                 p{

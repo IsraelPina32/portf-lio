@@ -9,35 +9,36 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/90dd3151ae.js" crossorigin="anonymous"></script>
     <script src="js/index.js" defer></script>
+    <script src="js/scroll.js" defer></script>
 </head>
 <body>
     <header class="navegacao-principal">
         <div class="menu-fixo">
           <div class="navegacao-container">
               <img  class="navegacao-container-foto" src="imgs/I.jpg" >
-                <ul class="nave-intens" type="none" >
-                    <a href="#"><li>Home</li> </a>
-                    <a href="#"><li>Sobre</li></a>
-                    <a href="#"><li>Habilidades</li></a>
-                    <a href="#"><li>Projetos</li></a>
-                    <a href="#"><li>Contato</li></a>
+                <ul class="nave-intens nav" type="none" >
+                    <a href="#home"><li>Home</li> </a>
+                    <a href="#sobre"><li>Sobre</li></a>
+                    <a href="#habilidade"><li>Habilidades</li></a>
+                    <a href="#projetos"><li>Projetos</li></a>
+                    <a href="#contato"><li>Contato</li></a>
                 </ul>
           </div>
         </div>
     </header>
     <main>
-        <div class="home">
-            <div class="home-btn">
-
+        <div class="home" id="home">
+            <div class="home-container">
                 <p>Português: "Você consegue ver o quão infinito é?".</p>
                 <p>Mandarim: "你能看出它是多麼無限嗎？".</p>
+            </div>
+            <div class="home-btn">
                 <button class="btn">acesse</button>
                 <i class="fa-solid fa-angle-down"></i>
-                
             </div>
         </div> 
                                             <!------------------------------------------- FIM HOME ------------------------------------------->
-        <div class="sobre">
+        <div class="sobre" id="sobre">
             <div class="titulo">
                 <h2>Sobre</h2>
                 <div class="linha"></div>
@@ -59,7 +60,7 @@
             </div>
         </div>
          <!------------------------------------------- FIM SOBRE ------------------------------------------->
-        <div class="habilidades-sessao">
+        <div class="habilidades-sessao" id="habilidade">
             <div class="titulo">
                 <h2>Habilidades</h2>
                 <div class="linha"></div>
@@ -133,7 +134,7 @@
      </div>
     </div>
       </div>
-        <div class="projetos">
+        <div class="projetos" id="projetos">
                 <div class="titulo">
                     <h2>Projetos</h2>
                     <div class="linha"></div>
@@ -159,7 +160,7 @@
           </div>
         </div>
         <!------------------------------------------- FIM PROJETOS ------------------------------------------->
-          <div class="contato">
+          <div class="contato" id="contato">
             <div class="titulo"> 
                 <h2>Contato</h2>
                 <div class="linha"></div>
@@ -270,12 +271,7 @@
                class="c-menu__item c-menu__item--twitter"
                data-social-network="twitter">
                <button class="c-menu__toggle js-section-toggle">
-                   <svg
-                       xmlns="http://www.w3.org/2000/svg"
-                       viewBox="0 0 512 512">
-                       <path
-                           d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"/>
-                    </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
                 </button>
             </li>
         </ul>

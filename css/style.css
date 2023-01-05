@@ -15,7 +15,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 10vh;
+  height: 8vh;
   background: black;
   color: white;
 }
@@ -55,24 +55,54 @@
 }
 
 .home {
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-repeat: no-repeat;
   background-position: center;
   background-color: white;
   background-image: url(/imgs/Logo_Definitiva.jpg);
 }
 
+.home-container {
+  height: 10vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 10rem;
+}
+
+.home-container p {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+}
+
 .home-btn {
+  height: 10vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -84,9 +114,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 3rem;
 }
 
 .home-btn .btn {
@@ -106,8 +137,8 @@
 .home-btn .btn:hover {
   background: black;
   color: white;
-  -webkit-transition: 1.8s;
-  transition: 1.8s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   cursor: pointer;
 }
 
@@ -116,12 +147,6 @@
   color: black;
   -webkit-animation: flutuando 2s ease-in-out infinite;
           animation: flutuando 2s ease-in-out infinite;
-}
-
-.home p {
-  font-family: 'Kdam Thmor Pro', sans-serif;
-  margin-top: 1.5rem;
-  height: 4.5rem;
 }
 
 .sobre {
@@ -140,6 +165,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 3.5rem 0;
 }
 
 .sobre .sobre-content {
@@ -179,7 +205,8 @@
 .sobre .sobre-content .sobre-card img {
   height: 200px;
   width: 50%;
-  border-radius: 50%;
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
 }
 
 .sobre .sobre-content .sobre-card p {
@@ -194,16 +221,16 @@
 }
 
 .habilidades-sessao {
-  background: #252934;
+  background: whitesmoke;
 }
 
 .habilidades-sessao .conhecimentos {
   height: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[];
+  -ms-grid-columns: (1fr)[16];
       grid-template-columns: repeat(16, 1fr);
-  -ms-grid-rows: (6rem)[];
+  -ms-grid-rows: (6rem)[6];
       grid-template-rows: repeat(6, 6rem);
   row-gap: 0.5rem;
 }
@@ -215,7 +242,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #fff;
+  color: #363636;
 }
 
 .habilidades-sessao .conhecimentos .conhecimento .conhecimento-header i {
@@ -228,11 +255,12 @@
   padding-left: 1rem;
   font-family: 'Kdam Thmor Pro', sans-serif;
   margin-top: 0.5rem;
+  color: #363636;
 }
 
 .habilidades-sessao .conhecimentos .conhecimento .conhecimento-text {
   margin-top: 1rem;
-  color: #fff;
+  color: #363636;
   font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
@@ -552,7 +580,7 @@
 }
 
 .c-card--twitter {
-  background: #00aced;
+  background: #FF0000;
   -webkit-clip-path: circle(0% at 725px 90%);
           clip-path: circle(0% at 725px 90%);
 }
@@ -650,6 +678,9 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  scroll-behavior: smooth;
 }
 
 a {

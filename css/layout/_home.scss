@@ -1,25 +1,42 @@
 $layout-name: "home";
 
 .#{$layout-name} {
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
     background-repeat: no-repeat;
     background-position: center;
     background-color: white;
     background-image: url(/imgs/Logo_Definitiva.jpg);
 
     
-    
+    &-container{
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 10rem;
+
+        p{
+            font-family: 'Kdam Thmor Pro', sans-serif;
+              margin-top: 1.5rem;                 
+              font-size: 1.2rem;
+        }
+    }
             
     &-btn{
+        height: 10vh;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-end;
+        margin-bottom: 3rem;
 
     .btn{
         background: transparent ;
@@ -36,7 +53,7 @@ $layout-name: "home";
         &:hover{
         background: black;
         color: white;
-        transition: 1.8s;
+        transition: 0.5s;
         cursor: pointer;
             }
         }    
@@ -46,9 +63,5 @@ $layout-name: "home";
             animation: flutuando 2s ease-in-out infinite;
             }   
         }
-        p{
-                  font-family: 'Kdam Thmor Pro', sans-serif;
-                    margin-top: 1.5rem;
-                    height: 4.5rem;                    
-        }
+   
 }
