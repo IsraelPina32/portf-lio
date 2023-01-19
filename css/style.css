@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Sarala&display=swap");
 .navegacao-principal .menu-fixo {
   position: fixed;
@@ -55,7 +56,7 @@
 }
 
 .home {
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -73,11 +74,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-color: white;
-  background-image: url(/imgs/Logo_Definitiva.jpg);
 }
 
 .home-container {
-  height: 10vh;
+  height: 2vh;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -92,13 +92,18 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: 10rem;
+  margin-bottom: 25rem;
 }
 
 .home-container p {
   font-family: 'Kdam Thmor Pro', sans-serif;
   margin-top: 1.5rem;
   font-size: 1.2rem;
+  margin: 1vh;
+}
+
+.home img {
+  height: 50vh;
 }
 
 .home-btn {
@@ -117,36 +122,36 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-bottom: 3rem;
+  margin-bottom: 10rem;
 }
 
 .home-btn .btn {
   background: transparent;
   height: 40px;
   width: 140px;
+  line-height: 1;
   border: 1px solid black;
   -webkit-box-shadow: #0d1c4a;
           box-shadow: #0d1c4a;
   font-family: 'Sarala', sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   color: black;
-  border-radius: 20px;
+  border-radius: 200rem;
 }
 
 .home-btn .btn:hover {
   background: black;
   color: white;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 1s;
+  transition: 1s;
   cursor: pointer;
 }
 
 .home-btn .fa-angle-down {
   font-size: 60pt;
-  color: black;
-  -webkit-animation: flutuando 2s ease-in-out infinite;
-          animation: flutuando 2s ease-in-out infinite;
+  -webkit-animation: flutuando 1s ease-in-out infinite;
+          animation: flutuando 1s ease-in-out infinite;
 }
 
 .sobre {
@@ -221,7 +226,7 @@
 }
 
 .habilidades-sessao {
-  background: whitesmoke;
+  background: white;
 }
 
 .habilidades-sessao .conhecimentos {
@@ -375,7 +380,7 @@
 }
 
 .projetos .projetos-container .projetos-img2 {
-  background-image: url(../../imgs/semfundo.png);
+  background-image: url(../../imgs/Progamação.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -424,8 +429,6 @@
 }
 
 .projetos .projetos-container .projetos-card:hover .projetos-card-btn {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
   opacity: 0;
   -webkit-transition: 0.8s ease-in-out;
   transition: 0.8s ease-in-out;
@@ -442,10 +445,11 @@
   color: azure;
   -webkit-transition: 1s;
   transition: 1s;
+  border-radius: 200rem;
 }
 
 .projetos .projetos-container .projetos-card .projetos-card-btn:hover {
-  background: #066464;
+  background: transparent;
 }
 
 .contato {
@@ -715,7 +719,7 @@ a {
 }
 
 .titulo .linha {
-  width: 70px;
+  width: 95px;
   height: 4px;
   background: white;
 }

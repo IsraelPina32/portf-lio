@@ -1,7 +1,7 @@
 $layout-name: "home";
 
 .#{$layout-name} {
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -10,23 +10,27 @@ $layout-name: "home";
     background-repeat: no-repeat;
     background-position: center;
     background-color: white;
-    background-image: url(/imgs/Logo_Definitiva.jpg);
 
     
     &-container{
-        height: 10vh;
+      
+        height: 2vh;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin-bottom: 10rem;
+        margin-bottom: 25rem;
 
         p{
             font-family: 'Kdam Thmor Pro', sans-serif;
               margin-top: 1.5rem;                 
               font-size: 1.2rem;
+              margin: 1vh;
         }
+    }
+    img{
+        height: 50vh;
     }
             
     &-btn{
@@ -36,31 +40,31 @@ $layout-name: "home";
         flex-direction: column;
         align-items: center;
         justify-content: flex-end;
-        margin-bottom: 3rem;
+        margin-bottom: 10rem;
 
     .btn{
-        background: transparent ;
+        background: transparent;
         height: 40px;
         width: 140px;
+        line-height: 1;
         border: 1px solid black;
         box-shadow: #0d1c4a;
         font-family: 'Sarala', sans-serif;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 400;
         color: black;
-        border-radius: 20px;
+        border-radius: 200rem;
 
         &:hover{
         background: black;
         color: white;
-        transition: 0.5s;
+        transition: 1s;
         cursor: pointer;
             }
         }    
         .fa-angle-down{
             font-size: 60pt;
-            color: black;
-            animation: flutuando 2s ease-in-out infinite;
+            animation: flutuando 1s ease-in-out infinite;
             }   
         }
    

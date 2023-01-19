@@ -25,7 +25,7 @@ $layout-name: "projetos";
     }
 
   .projetos-img2{
-        background-image: url(../../imgs/semfundo.png);
+        background-image: url(../../imgs/Progamação.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: center;
@@ -61,7 +61,7 @@ $layout-name: "projetos";
         transition: 1s;
 
         &:hover  .projetos-card-btn{
-            transform: rotate(360deg);
+            // transform: rotate(360deg);
             opacity: 0;
             transition: 0.8s ease-in-out;
         }
@@ -76,9 +76,10 @@ $layout-name: "projetos";
         border: white 1px solid;
         color: azure;
         transition: 1s;
+        border-radius: 200rem;
 
         &:hover{
-            background: rgb(6, 100, 100);
+            background: transparent;
         }
 
           }
