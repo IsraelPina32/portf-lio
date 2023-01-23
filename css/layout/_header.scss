@@ -22,7 +22,7 @@ $layout-name: "navegacao-principal";
                 font-size: 20pt;
 
                 &:hover{
-                    transform: rotate(360deg);
+                    transform: scale(1.1);
                     transition: 0.5s;
                     cursor: pointer;
                     }

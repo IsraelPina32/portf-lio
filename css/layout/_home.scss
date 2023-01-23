@@ -1,7 +1,7 @@
 $layout-name: "home";
 
 .#{$layout-name} {
-    height: 120vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -9,18 +9,16 @@ $layout-name: "home";
     flex-direction: column;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: white;
-
-    
+    background-color: white;    
     &-container{
       
-        height: 2vh;
+        height: 5vh;
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin-bottom: 25rem;
+        margin-bottom: 15rem;
 
         p{
             font-family: 'Kdam Thmor Pro', sans-serif;
@@ -56,9 +54,11 @@ $layout-name: "home";
         border-radius: 200rem;
 
         &:hover{
+        transform: scale(1.1);
         background: black;
         color: white;
-        transition: 1s;
+        font-weight: bold;
+        transition: 0.5s all ease-in-out;
         cursor: pointer;
             }
         }    

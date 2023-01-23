@@ -1,6 +1,7 @@
 $layout-name: "projetos";
 
 .#{$layout-name}{
+    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -13,8 +14,7 @@ $layout-name: "projetos";
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-        height: 100%;
-        width: 100%;
+        width: 80%;
 
     .projetos-img1{
         background-image: url(/imgs//motinha.png);
@@ -30,7 +30,7 @@ $layout-name: "projetos";
         background-size: 100%;
         background-position: center;
         filter: grayscale(100%);
-        transition: 1s ease-out;
+        transition: 0.5s all ease-out;
         object-fit: cover;
 
         &:hover{
@@ -42,7 +42,6 @@ $layout-name: "projetos";
     
     .projetos-img3{  
         background-image: url(../../imgs/Edtitor.web.jpg);
-        
         background-repeat: no-repeat;
         background-size: 80%;
         background-position: center;
@@ -50,41 +49,40 @@ $layout-name: "projetos";
     }
 
     .projetos-card{
-        width: 500px;
-        height: 500px;
-        border: 1px white solid;
+        width: 550px;
+        height: 450px;
+        border:  black 2px  solid;
+        background-color: gray;
         margin: 50px 50px 50px 50px;
         display: flex;
         align-items: flex-end;
         justify-content: center;
         border-radius: 8px;
-        transition: 1s;
+        transition: 0.5s;
 
         &:hover  .projetos-card-btn{
-            // transform: rotate(360deg);
-            opacity: 0;
-            transition: 0.8s ease-in-out;
+            transform: scale(1.1);
+            transition: 0.5s all ease-in-out;
+            
         }
   
     .projetos-card-btn{
         width: 90px;
         padding: 8px;
         margin-bottom: 25px;
-        color: black;
+        background-color: white;
         cursor: pointer;
         background: none;
-        border: white 1px solid;
-        color: azure;
-        transition: 1s;
+        border:  black 1.5px solid;
+        color:  white;
+        transition: 0.5s;
         border-radius: 200rem;
 
         &:hover{
-            background: transparent;
-        }
-
-          }
-
-          }
-
-    }
+           background-color: black;
+           color: white;
+         }
+       }
+      }
+   }
 }
