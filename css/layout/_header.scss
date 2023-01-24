@@ -14,7 +14,11 @@ $layout-name: "navegacao-principal";
             height: 8vh;
             background: black;
             color: white;
-
+            font-weight: bold;
+            border: none;
+            transition: 0.5 all ease-in-out;
+            font-size: 18px;
+            padding: 15px;
             .navegacao-container-foto{
                 height: 55px;
                 border-radius: 40px;
@@ -37,7 +41,15 @@ $layout-name: "navegacao-principal";
                         font-size: 17pt;
                     
                         &:hover{
-                            border-bottom: 5px solid white;
+                           background-color: white;
+                           color: black;
+                           cursor: pointer;
+                           font-weight: bold;
+                           font-size: 21px;
+                           padding: 5px;
+                           border: none;
+                           border-radius: 200rem;
+                           transition: 0.5s all ease-in-out;
                     }
                 }
              }
