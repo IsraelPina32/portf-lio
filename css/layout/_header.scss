@@ -37,16 +37,16 @@ $layout-name: "navegacao-principal";
                 flex-direction: row;
 
                     li{
-                        margin-left: 50px;
-                        font-size: 17pt;
+                        margin-left: 45px;
+                        font-size: 18pt;
                     
                         &:hover{
                            background-color: white;
                            color: black;
                            cursor: pointer;
                            font-weight: bold;
-                           font-size: 21px;
-                           padding: 5px;
+                           font-size: 22px;
+                           padding: 4px;
                            border: none;
                            border-radius: 200rem;
                            transition: 0.5s all ease-in-out;

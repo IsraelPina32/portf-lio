@@ -53,8 +53,8 @@
 }
 
 .navegacao-principal .menu-fixo .navegacao-container .nave-intens li {
-  margin-left: 50px;
-  font-size: 17pt;
+  margin-left: 45px;
+  font-size: 18pt;
 }
 
 .navegacao-principal .menu-fixo .navegacao-container .nave-intens li:hover {
@@ -62,8 +62,8 @@
   color: black;
   cursor: pointer;
   font-weight: bold;
-  font-size: 21px;
-  padding: 5px;
+  font-size: 22px;
+  padding: 4px;
   border: none;
   border-radius: 200rem;
   -webkit-transition: 0.5s all ease-in-out;
@@ -511,7 +511,7 @@
 }
 
 .c-button {
-  background: blue;
+  background: black;
   border-radius: 30px;
   color: #fff;
   display: inline-block;
@@ -524,7 +524,7 @@
 }
 
 .c-button:hover {
-  background-color: #00ffff;
+  background-color: gray;
   -webkit-transition: all 90ms ease-out;
   transition: all 90ms ease-out;
 }
@@ -574,7 +574,7 @@
 }
 
 .c-card--index {
-  background-color: #fcfcfc;
+  background-color: whitesmoke;
   color: #363636;
 }
 
@@ -585,11 +585,11 @@
 }
 
 .c-card--instagram .c-button {
-  background: #4f5bd5;
+  background: #363636;
 }
 
 .c-card--instagram .c-button:hover {
-  background-color: #646eda;
+  background-color: black;
 }
 
 .c-card--linkedin {
@@ -604,7 +604,8 @@
 }
 
 .c-card--linkedin .c-button:hover {
-  background-color: #d6d6d6;
+  background-color: #0d1c4a;
+  color: white;
 }
 
 .c-card--twitter {
@@ -619,7 +620,8 @@
 }
 
 .c-card--twitter .c-button:hover {
-  background-color: #e3e3e3;
+  background-color: limegreen;
+  color: red;
 }
 
 .c-card__title {
