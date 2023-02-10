@@ -511,7 +511,7 @@
 }
 
 .c-button {
-  background: black;
+  background: blue;
   border-radius: 30px;
   color: #fff;
   display: inline-block;
@@ -524,7 +524,7 @@
 }
 
 .c-button:hover {
-  background-color: gray;
+  background-color: #00ffff;
   -webkit-transition: all 90ms ease-out;
   transition: all 90ms ease-out;
 }
@@ -574,7 +574,7 @@
 }
 
 .c-card--index {
-  background-color: whitesmoke;
+  background-color: #fcfcfc;
   color: #363636;
 }
 
@@ -585,11 +585,11 @@
 }
 
 .c-card--instagram .c-button {
-  background: #363636;
+  background: #4f5bd5;
 }
 
 .c-card--instagram .c-button:hover {
-  background-color: black;
+  background-color: #646eda;
 }
 
 .c-card--linkedin {
@@ -604,8 +604,7 @@
 }
 
 .c-card--linkedin .c-button:hover {
-  background-color: #0d1c4a;
-  color: white;
+  background-color: #d6d6d6;
 }
 
 .c-card--twitter {
@@ -620,8 +619,7 @@
 }
 
 .c-card--twitter .c-button:hover {
-  background-color: limegreen;
-  color: red;
+  background-color: #e3e3e3;
 }
 
 .c-card__title {
