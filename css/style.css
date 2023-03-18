@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Sarala&display=swap");
 .navegacao-principal .menu-fixo {
   position: fixed;
@@ -466,7 +465,7 @@
 }
 
 .projetos .projetos-container .projetos-img1 {
-  background-image: url(/imgs//motinha.png);
+  background-image: url(../../imgs/moto.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -475,7 +474,7 @@
 }
 
 .projetos .projetos-container .projetos-img2 {
-  background-image: url(../../imgs/Progamação.jpg);
+  background-image: url(../../imgs/projeto_foto.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -496,7 +495,7 @@
 }
 
 .projetos .projetos-container .projetos-img3 {
-  background-image: url(../../imgs/Edtitor.web.jpg);
+  background-image: url(../../imgs/projeto2.jpg);
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: center;
