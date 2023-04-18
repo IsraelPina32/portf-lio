@@ -113,7 +113,7 @@
   font-family: 'Kdam Thmor Pro', sans-serif;
   margin-top: 1.5rem;
   font-size: 1.2rem;
-  margin: 1vh;
+  margin: 0.2vh;
 }
 
 .home img {
@@ -136,7 +136,7 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin-bottom: 10rem;
+  margin-bottom: 7.5rem;
 }
 
 .home-btn .btn {
@@ -149,7 +149,7 @@
           box-shadow: #0d1c4a;
   font-family: 'Sarala', sans-serif;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 700px;
   color: black;
   border-radius: 200rem;
 }
@@ -531,7 +531,7 @@
 }
 
 .projetos .projetos-container .projetos-card .projetos-card-btn {
-  width: 90px;
+  width: 100px;
   padding: 8px;
   margin-bottom: 25px;
   background-color: white;
