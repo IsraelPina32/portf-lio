@@ -61,12 +61,12 @@
   color: black;
   cursor: pointer;
   font-weight: bold;
-  font-size: 22px;
-  padding: 4px;
+  font-size: 24px;
+  padding: 5px;
   border: none;
   border-radius: 200rem;
-  -webkit-transition: 0.5s all ease-in-out;
-  transition: 0.5s all ease-in-out;
+  -webkit-transition: 0.2 s all ease-in-out;
+  transition: 0.2 s all ease-in-out;
 }
 
 .home {
@@ -471,6 +471,19 @@
   background-position: center;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: 0.2s all ease-out;
+  transition: 0.2s all ease-out;
+  object-fit: cover;
+}
+
+.projetos .projetos-container .projetos-img1:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  background-size: 110%;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 .projetos .projetos-container .projetos-img2 {
@@ -490,8 +503,8 @@
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
   background-size: 110%;
-  -webkit-transition: 1s ease;
-  transition: 1s ease;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 .projetos .projetos-container .projetos-img3 {
@@ -501,13 +514,26 @@
   background-position: center;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: 0.2s all ease-out;
+  transition: 0.2s all ease-out;
+  object-fit: cover;
+}
+
+.projetos .projetos-container .projetos-img3:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  background-size: 100%;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
 }
 
 .projetos .projetos-container .projetos-card {
   width: 550px;
   height: 450px;
   border: black 2px  solid;
-  background-color: gray;
+  background-color: transparent;
   margin: 50px 50px 50px 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -521,6 +547,7 @@
   border-radius: 8px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  border: 1px solid whitesmoke;
 }
 
 .projetos .projetos-container .projetos-card:hover .projetos-card-btn {
@@ -537,7 +564,7 @@
   background-color: white;
   cursor: pointer;
   background: none;
-  border: black 1.5px solid;
+  border: white 1.5px solid;
   color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;

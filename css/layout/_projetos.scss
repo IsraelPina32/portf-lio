@@ -7,6 +7,8 @@ $layout-name: "projetos";
     align-items: center;
     background: black;
     flex-direction: column;
+
+    
     
     .projetos-container{
         display: flex;
@@ -15,14 +17,25 @@ $layout-name: "projetos";
         justify-content: space-around;
         width: 80%;
 
+       
     .projetos-img1{
         background-image: url(../../imgs/Blender.png);
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: center;
         object-fit: cover;
+        filter: grayscale(100%);
+        transition: 0.2s all ease-out;
+        object-fit: cover;
+
+        &:hover{
+            filter: grayscale(0%);
+            background-size: 110%;
+            transition: 1s ease-in-out;
+        }
     }
 
+ 
   .projetos-img2{
         background-image: url(../../imgs/Progamador.jpg);
         background-repeat: no-repeat;
@@ -35,7 +48,7 @@ $layout-name: "projetos";
         &:hover{
             filter: grayscale(0%);
             background-size: 110%;
-            transition: 1s ease;
+            transition: 1s ease-in-out;
         }
     }
     
@@ -45,19 +58,29 @@ $layout-name: "projetos";
         background-size: 80%;
         background-position: center;
         object-fit: cover;
+        filter: grayscale(100%);
+        transition: 0.2s all ease-out;
+        object-fit: cover;
+
+        &:hover{
+            filter: grayscale(0%);
+            background-size: 100%;
+            transition: 1s ease;
+        }
     }
 
     .projetos-card{
         width: 550px;
         height: 450px;
         border:  black 2px  solid;
-        background-color: gray;
+        background-color: transparent;
         margin: 50px 50px 50px 50px;
         display: flex;
         align-items: flex-end;
         justify-content: center;
         border-radius: 8px;
         transition: 0.5s;
+        border: 1px solid whitesmoke;
 
         &:hover  .projetos-card-btn{
             transform: scale(1.1);
@@ -72,7 +95,7 @@ $layout-name: "projetos";
         background-color: white;
         cursor: pointer;
         background: none;
-        border:  black 1.5px solid;
+        border:  white 1.5px solid;
         color:  white;
         transition: 0.5s;
         border-radius: 200rem;
@@ -82,6 +105,8 @@ $layout-name: "projetos";
            color: white;
          }
        }
+      
+   
       }
    }
 }
