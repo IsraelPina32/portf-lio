@@ -54,13 +54,13 @@ $layout-name: "home";
         border-radius: 200rem;
 
         &:hover{
-        transform: scale(1.1);
-        background: black;
-        color: white;
-        font-weight: bold;
-        transition: 0.5s all ease-in-out;
-        cursor: pointer;
-            }
+            transform: scale(1.1);
+            background: black;
+            color: white;
+            font-weight: bold;
+            transition: 0.5s all ease-in-out;
+            cursor: pointer;
+                }
         }    
         .fa-angle-down{
             font-size: 60pt;
