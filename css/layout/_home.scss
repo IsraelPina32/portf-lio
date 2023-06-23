@@ -40,7 +40,7 @@ $layout-name: "home";
         justify-content: flex-end;
         margin-bottom: 7.5rem;
 
-    .btn{
+    .btn{ 
         background: transparent;
         height: 40px;
         width: 140px;
@@ -52,7 +52,7 @@ $layout-name: "home";
         font-weight: 700px;
         color: black;
         border-radius: 200rem;
-
+ 
         &:hover{
             transform: scale(1.1);
             background: black;
@@ -60,12 +60,12 @@ $layout-name: "home";
             font-weight: bold;
             transition: 0.5s all ease-in-out;
             cursor: pointer;
-                }
-        }    
+        } 
+            
         .fa-angle-down{
             font-size: 60pt;
             animation: flutuando 1s ease-in-out infinite;
-            }   
-        }
-   
+          }   
+      }
+   }  
 }
